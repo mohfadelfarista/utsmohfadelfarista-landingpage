@@ -1,0 +1,99 @@
+/* ===== Umum ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+/* ===== Kartu Profil ===== */
+.card {
+  background-color: #fff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+  max-width: 90%;
+}
+
+/* ===== Foto Profil ===== */
+.profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.label {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* ===== Nama dan Deskripsi ===== */
+.name {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+}
+
+.desc {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0 20px;
+}
+
+/* ===== Bagian Kontak ===== */
+.section-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
+}
+
+a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Keahlian ===== */
+.skills {
+  margin-top: 10px;
+}
+
+.skill {
+  background-color: #e5e7eb;
+  color: #333;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+/* ===== Responsif ===== */
+@media (max-width: 500px) {
+  .card {
+    width: 90%;
+    padding: 20px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .desc {
+    font-size: 13px;
+  }
+}
